@@ -1,10 +1,7 @@
-import React, { useEffect } from 'react'
-import { useState } from 'react'
+import React from 'react'
 import style from './category.module.css'
 
-export default function Category() {
-
-
+export default function Category({getCategory}) {
 
     const category = [
         {
@@ -29,12 +26,10 @@ export default function Category() {
         }
     ]
 
-
-
     return (
         <div className={style.category_row}>
             {category.map(item => (
-                <div key={item.key}> {item.name} </div>
+                <div key={item.key} onClick={el => getCategory(item.key)}> {item.name} </div>
             ))}
         </div>
     )
