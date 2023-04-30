@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Стул серый",
+        "img": "greyChair.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetue adisicing.",
+        "category": "chairs",
+        "price": "49.99"
+    },
+    {
+        "id": 2,
+        "title": "Стол",
+        "img": "table.webp",
+        "desc": "Lorem ipsum dolor sit amet, consectetue adisicing.",
+        "category": "tables",
+        "price": "149.00"
+    },
+    {
+        "id": 3,
+        "title": "Диван",
+        "img": "sofa.jpeg",
+        "desc": "Lorem ipsum dolor sit amet, consectetue adisicing.",
+        "category": "sofa",
+        "price": "549.99"
+    },
+    {
+        "id": 4,
+        "title": "Лампа",
+        "img": "light.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetue adisicing.",
+        "category": "light",
+        "price": "25.00"
+    },
+    {
+        "id": 5,
+        "title": "Стул белый",
+        "img": "whiteChair.jpeg",
+        "desc": "Lorem ipsum dolor sit amet, consectetue adisicing.",
+        "category": "chairs",
+        "price": "49.99"
+    },
+    {
+        "id": 6,
+        "title": "Кровать",
+        "img": "bed.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetue adisicing.",
+        "category": "bed",
+        "price": "849.99"
+    }
+]
